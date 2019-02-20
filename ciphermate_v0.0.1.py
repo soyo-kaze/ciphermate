@@ -25,8 +25,7 @@ print "Encrypted pass : " + "".join(encryption) #prints encrypted pass
 
 """*************Decryption********************"""
 decryption = []
-ecn_pass = raw_input("Enter Encrypted pass: ") #will be changed to a 
-var taking ecrypted_pass as input
+ecn_pass = raw_input("Enter Encrypted pass: ") #will be changed to a var taking ecrypted_pass as input
 n = 0
 dec = []
 for g in range(0, (len(ecn_pass)/3)):
